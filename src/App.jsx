@@ -1,5 +1,5 @@
 import React from "react";
-
+ const youtuber="Thapa Technical";
 function App(){
     let currDate=new Date();
     currDate=currDate.getHours();
@@ -27,5 +27,6 @@ return (
     </>
 )
 }
-
-export default App;
+const favPrg="React";
+export default youtuber;
+export {favPrg,App};
